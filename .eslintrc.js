@@ -1,18 +1,28 @@
+const IS_PROD = process.env.NODE_ENV === 'production'
 module.exports = {
-  root: true,
-  env: {
-    node: true
-  },
-  'extends': [
-    'plugin:vue/vue3-essential',
-    'eslint:recommended',
-    '@vue/typescript/recommended'
-  ],
-  parserOptions: {
-    ecmaVersion: 2020
-  },
-  rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
-  }
+    root: true,
+    env: {
+        browser: true,
+        es6: true,
+        commonjs: true,
+        node: true,
+        mocha: true,
+    },
+    extends: [
+        'cmyr/vue'
+    ],
+    plugins: [
+        'vue',
+    ],
+    parserOptions: {
+        parser: '@typescript-eslint/parser',
+        ecmaVersion: new Date().getFullYear(),
+        sourceType: 'module',
+        ecmaFeatures: {
+            modules: true,
+        },
+    },
+    parser: 'vue-eslint-parser',
+    rules: {
+    },
 }
