@@ -9,7 +9,7 @@ module.exports = {
         mocha: true,
     },
     extends: [
-        'cmyr/vue'
+        'cmyr/vue3'
     ],
     plugins: [
         'vue',
