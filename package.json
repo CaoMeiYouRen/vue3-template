@@ -16,7 +16,7 @@
     "normalize.css": "^8.0.1",
     "vue": "^3.2.20",
     "vue-composable": "^1.0.0-beta.23",
-    "vue-router": "^4.0.11",
+    "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
