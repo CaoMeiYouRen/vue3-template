@@ -37,7 +37,7 @@
     "eslint-plugin-vue": "^7.20.0",
     "lint-staged": "^12.3.4",
     "sass": "^1.49.7",
-    "sass-loader": "^10.1.1",
+    "sass-loader": "^12.4.0",
     "stylelint": "^13.13.1",
     "stylelint-config-cmyr": "^0.2.1",
     "stylelint-config-rational-order": "^0.1.2",
