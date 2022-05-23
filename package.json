@@ -14,7 +14,7 @@
     "core-js": "^3.22.5",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1",
-    "vue": "^3.2.34",
+    "vue": "^3.2.36",
     "vue-composable": "^1.0.0-beta.24",
     "vue-router": "^4.0.15",
     "vuex": "^4.0.2"
